@@ -4,9 +4,9 @@
 
 @layer base {
     section {
-        @apply py-24
+        @apply sm:py-24 py-16
     }
     main {
-        @apply max-w-7xl mx-auto px-8
+        @apply max-w-7xl mx-auto sm:px-8 px-4
     }
 }

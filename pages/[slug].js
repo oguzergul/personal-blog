@@ -7,7 +7,7 @@ const BlogDetail = () => {
     <div>
       <Hero>
         <Hero.Subtitle>Publised 12 Aug 2022</Hero.Subtitle>
-        <Hero.Title>What is Event Loop on JavaScript </Hero.Title>
+        <Hero.Title>What Event Loop in JavaScript?</Hero.Title>
         <Hero.Description>
           The event loop is the secret behind JavaScript’s asynchronous
           programming.

@@ -9,12 +9,13 @@ const BlogDetail = () => {
         <Hero.Subtitle>Publised 12 Aug 2022</Hero.Subtitle>
         <Hero.Title>What is Event Loop on JavaScript </Hero.Title>
         <Hero.Description>
-          I am sharing my experinces on my blog. I hope you enjoy! enalksjdlkasj
+          The event loop is the secret behind JavaScript’s asynchronous
+          programming.
         </Hero.Description>
       </Hero>
 
-      <section className="grid grid-cols-12 gap-24">
-        <div className="col-span-3 ">
+      <section className="grid sm:grid-cols-12 sm:gap-24 grid-cols-1 gap-24">
+        <div className="sm:col-span-4 sm:order-1 order-2  ">
           <AuthorCard>
             <AuthorCard.Avatar
               source={{
@@ -28,7 +29,7 @@ const BlogDetail = () => {
             </AuthorCard.Info>
           </AuthorCard>
         </div>
-        <div className="col-span-8 ">asd</div>
+        <div className="sm:col-span-8  sm:order-2 order-1">Blog Content</div>
       </section>
     </div>
   );

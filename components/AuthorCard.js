@@ -1,7 +1,9 @@
 import React from "react";
 
 export function AuthorCard({ children }) {
-  return <figure className="flex flex-row gap-3">{children}</figure>;
+  return (
+    <figure className="flex flex-row gap-3 sticky top-8">{children}</figure>
+  );
 }
 
 AuthorCard.Avatar = function AuthorAvatar({ source }) {
